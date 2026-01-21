@@ -22,7 +22,8 @@ const Contact = () => {
       </p>
 
 
-      <form className="max-w-2xl mx-auto text-gray-600 pt-8"> 
+      <form action="https://api.web3forms.com/submit" method="POST" className="max-w-2xl mx-auto text-gray-600 pt-8"> 
+        <input type="hidden" name="access_key" value="d6439935-9468-40e0-a837-301fbcf2944e"></input>
         <div className="flex flex-wrap">
             <div className="w-full md:w-1/2 text-left">Your Name
             <input className="w-full border border-gray-300 rounded py-3 px-4 mt-2" type="text" name="Name" placeholder="Your Name" required />
